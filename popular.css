@@ -1,0 +1,46 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 20px; /* Added padding instead of fixed height */
+    min-height: 100vh; /* Changed from fixed height */
+}
+
+.popular h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.popular hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+    margin-bottom: 30px;
+}
+
+.popular-items {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to next line */
+    justify-content: center; /* Centers items horizontally */
+    gap: 30px; /* Space between items */
+    max-width: 1200px; /* Prevents items from spreading too wide */
+    margin: 0 auto; /* Centers the container */
+}
+
+/* Add these item styles if not already present */
+
+
+.item:hover {
+    transform: translateY(-5px);
+}
+
+.item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}

@@ -1,0 +1,39 @@
+.breadcrumbs {
+    padding: 15px 0;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .breadcrumbs a {
+    color: #0066c0;
+    text-decoration: none;
+  }
+  
+  .breadcrumbs a:hover {
+    text-decoration: underline;
+  }
+  
+  .separator {
+    margin: 0 8px;
+    color: #999;
+  }
+  .breadcrum {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 500;
+  
+    text-transform: capitalize;
+  }
+  
+  /* Style for the arrow icon */
+  .breadcrum img {
+    width: 10px;  /* Smaller size */
+    height: 10px;
+    margin: 0 5px; /* Add spacing around the arrow */
+    vertical-align: middle; /* Align properly with text */
+  }
+ 
